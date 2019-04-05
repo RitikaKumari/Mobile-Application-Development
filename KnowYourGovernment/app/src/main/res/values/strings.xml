@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KnowYourGovernment</string>
+    <string name="title_bar">Know Your Government</string>
+    <string name="image_of_official">image of official</string>
+    <string name="youtubeId">youtubeId</string>
+    <string name="twitterId">twitterId</string>
+    <string name="googlePlusId">googleplusId</string>
+    <string name="facebookId">facebookId</string>
+    <string name="separator">separator</string>
+    <string name = "file_name">OfficialsData.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="no_file">No Official File Present</string>
+    <string name="saved">OfficialData Saved!</string>
+</resources>

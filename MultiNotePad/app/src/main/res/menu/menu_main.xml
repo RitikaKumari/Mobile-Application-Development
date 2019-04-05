@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_item_info"
+        android:icon="@drawable/ic_info_white_48dp"
+        android:title="@string/information"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/main_item_edit"
+        android:icon="@drawable/ic_note_add_white_48dp"
+        android:title="@string/add_note"
+        app:showAsAction="always" />
+</menu>

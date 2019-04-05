@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ritika.knowyourgovernment">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/title_bar"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ritika.knowyourgovernment.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ritika.knowyourgovernment.AboutActivity"
+            android:parentActivityName="com.ritika.knowyourgovernment.MainActivity"/>
+        <activity
+            android:name="com.ritika.knowyourgovernment.OfficialActivity"
+            android:parentActivityName="com.ritika.knowyourgovernment.MainActivity" />
+        <activity
+            android:name="com.ritika.knowyourgovernment.ImageActivity"
+            android:parentActivityName="com.ritika.knowyourgovernment.MainActivity"/>
+    </application>
+
+</manifest>

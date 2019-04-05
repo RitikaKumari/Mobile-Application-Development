@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MultiNote</string>
+    <string name="copyright">© 2018, Ritika Kumari</string>
+    <string name="string_version">Version 1.0</string>
+    <string name="information">Informations</string>
+    <string name="add_note">Add Note</string>
+    <string name="save_icon" >Save</string>
+    <string name="file_name">Notes.json</string>
+    <string name="encoding">UTF-8</string>
+</resources>
